@@ -94,8 +94,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Indianbotupdates")
-                await self.three.join_chat("TheGodfatherChat")
+                await self.three.join_chat("UNB_INFO")
+                await self.three.join_chat("UN_W0RLD")
             except:
                 pass
             assistants.append(3)
